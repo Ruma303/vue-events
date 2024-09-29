@@ -11,12 +11,16 @@
     <div id="app">
         <!-- <button v-on:click="console.log('Evento click catturato')">Click me</button> -->
         <!-- {{ count }} -->
+
         <!-- <button v-on:click="count+=1">
             Aumenta</button> -->
+
         <!-- <button @click="increment">
             Aumenta</button> -->
+
         <!-- <button @click="() => showParams('param1', 'param2')">Click me</button> -->
         <!-- <button @click="handleClick($event, 'Hello, World!')">Click me</button> -->
+         
         <!-- <form action="">
                 {{ input }}
                 <input type="text" @input="onInput">
@@ -28,11 +32,19 @@
 
 
         <!-- <article :style="{ color: currentColor }">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus odio nulla neque commodi ratione ad nesciunt esse odit quam enim! Aut possimus deleniti veniam et tempore eius expedita labore consectetur!
-        </article>
-        <button @click="changeArticleColor('red')">Red</button>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus odio nulla neque commodi ratione ad
+            nesciunt esse odit quam enim! Aut possimus deleniti veniam et tempore eius expedita labore consectetur!
+        </article> -->
+        <!-- <button @click="changeArticleColor('red')">Red</button>
         <button @click="changeArticleColor('blue')">Blue</button>
         <button @click="changeArticleColor('green')">Green</button> -->
+
+        <!-- <button
+            v-on:click="changeArticleColor('red'),
+            incrementByThree(3);
+            console.log('Hello')"
+        >Multi event</button> -->
+
     </div>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script src="index.js"></script>

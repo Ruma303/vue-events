@@ -11,6 +11,9 @@ const App = Vue.createApp({
         increment() {
             this.count++
         },
+        incrementByThree(p) {
+            this.count += p;
+        },
         showParams(p1, p2) {
             console.log(p1, p2);
         },
